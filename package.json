@@ -1,0 +1,37 @@
+{
+  "name": "cli-password-generator",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "passgen": "node index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/eidicon/cli-password-generator.git"
+  },
+  "keywords": [
+    "cli",
+    "nodejs",
+    "es6"
+  ],
+  "author": "eidicon",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/eidicon/cli-password-generator/issues"
+  },
+  "homepage": "https://github.com/eidicon/cli-password-generator#readme",
+  "devDependencies": {
+    "eslint": "^5.5.0",
+    "eslint-config-standard": "^12.0.0",
+    "eslint-plugin-import": "^2.14.0",
+    "eslint-plugin-node": "^7.0.1",
+    "eslint-plugin-promise": "^4.0.1",
+    "eslint-plugin-standard": "^4.0.0"
+  },
+  "dependencies": {
+    "commander": "^2.18.0",
+    "lodash": "^4.17.11"
+  }
+}
